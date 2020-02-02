@@ -1,0 +1,163 @@
+body {
+    display: block;
+    margin: 8px;
+}
+div {
+    display: block;
+}
+header {
+    display: inline-block;
+    width: 100%;
+    padding-right: 30px;
+}
+
+.left-aligned {
+    float: left;
+}
+ul {
+    padding-left: 0;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+header a {
+    padding-left: 15px;
+
+}
+a {
+    text-decoration: none;
+
+}
+.right-aligned {
+    float: right;
+    padding-right: 35px;
+}
+
+#appdrawer {
+    vertical-align: middle;
+    width: 19px;
+    padding-left: 15px;
+    color: #5f6368;
+    margin-bottom: 2px;
+    opacity: 0.55;
+}
+
+ul #sign-in {
+    padding-left: 12px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-top: 8px;
+}
+
+#sign-in {
+    height: 60px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    margin-left: 13px;
+    color: white;
+    background: #4387fd;
+    border-radius: 3px;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    width: 275px;
+    padding-top: 170px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    
+}
+#search-box {
+    display: table;
+    margin: auto;
+    border: 1px solid #cfcece;
+    border-radius: 50px;
+    width: 470px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+#search-box svg {
+    position: relative;
+    top: 5px;
+    width: 20px;
+    fill: grey;
+    margin-left: 15px;
+}
+#google-search-text {
+    width: 385px;
+    height: 35px;
+    font-size: 12pt;
+    margin: 3px;
+    border: none;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+#mic {
+    position: relative;
+    vertical-align: middle;
+    width: 24px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+#buttons {
+    margin: 30px auto;
+    width: 400px;
+    height: 40px;
+}
+#buttons button {
+    position: relative;
+    top: 0px;
+    height: 36px;
+    font-size: 11pt;
+    color: #5c5c5c;
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    padding: 0px 15px;
+}
+#google-search-buttons {
+    margin-left: 55px;
+}
+#feeling-lucky-button {
+    margin-left: 10px;
+}
+footer {
+    background: #f2f2f2;
+    color: #5f6368;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+footer a {
+    color: #5f6368;
+    padding-left: 20px;
+    padding-right: 15px;
+}
